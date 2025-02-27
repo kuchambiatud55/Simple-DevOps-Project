@@ -10,6 +10,7 @@
    # Create tomcat directory
    cd /opt
  wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
+
  tar -xvzf apache-tomcat-8.5.35.tar.gz
 
    ```
