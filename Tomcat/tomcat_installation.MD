@@ -23,8 +23,8 @@
    `Neither the JAVA_HOME nor the JRE_HOME environment variable is defined At least one of these environment variable is needed to run this program`
 1. create link files for tomcat startup.sh and shutdown.sh 
    ```sh
-   ln -s /opt/apache-tomcat-<version>/bin/startup.sh /usr/local/bin/tomcatup
-   ln -s /opt/apache-tomcat-<version>/bin/shutdown.sh /usr/local/bin/tomcatdown
+   ln -s /opt/tomcat/bin/startup.sh /usr/local/bin/tomcatup
+   ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown
    tomcatup
    ```
   #### Check point :
